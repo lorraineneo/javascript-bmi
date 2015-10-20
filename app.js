@@ -1,3 +1,11 @@
+$(function() {
+
+  $('#calculateButton').on("click", function(e) {
+    calculateBMI();
+  });
+
+});
+
 var calculateBMI = function () {
   var weight = document.getElementById("weightField").value;
   var height = document.getElementById("heightField").value;
